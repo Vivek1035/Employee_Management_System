@@ -1,15 +1,42 @@
 # Employee Management System - Java, Spring Boot, PostgreSQL
-Employee Management System - Java, Spring Boot, PostgreSQL
-This is a fully functional Employee Management System built using Java, Spring Boot, and PostgreSQL. The system allows for basic CRUD operations (Create, Read, Update, Delete) on employee records. It is designed to manage employee data, including their names, emails, positions, and salaries. The application is built with RESTful APIs to perform the operations, and it uses PostgreSQL as the database to persist employee information.
+# 🚀 Employee Management System
 
-Key Features:
-Create Employee: Add new employee records with details such as name, email, position, and salary.
-Read Employee: Retrieve employee details by ID or fetch all employee records.
-Update Employee: Modify an existing employee's details by providing the employee ID.
-Delete Employee: Remove an employee record based on the provided ID.
-Technologies Used:
-Java: The primary programming language used for backend development.
-Spring Boot: A framework that simplifies the development of Java-based applications, enabling fast and efficient development of RESTful APIs.
-PostgreSQL: A relational database management system used to store and retrieve employee data.
-JPA/Hibernate: Java Persistence API (JPA) with Hibernate for object-relational mapping (ORM) to interact with the PostgreSQL database.
-Spring Data JPA: For easy integration with PostgreSQL and managing database operations.
+A fully functional **Employee Management System** built using **Java**, **Spring Boot**, and **PostgreSQL**. This application provides RESTful APIs to perform basic **CRUD operations** (Create, Read, Update, Delete) on employee records. It manages employee information including **name**, **email**, **position**, and **salary**.
+
+---
+
+## ✅ Key Features
+
+- **Create Employee**: Add new employee records with fields such as **name**, **email**, **position**, and **salary**.
+- **Read Employee**:
+  - Retrieve employee details by **ID**.
+  - Fetch **all employee records**.
+- **Update Employee**: Update an employee’s details by providing the **employee ID**.
+- **Delete Employee**: Delete an employee record based on the **ID**.
+
+---
+
+## 🛠 Technologies Used
+
+- **Java** – Core programming language used for backend development.
+- **Spring Boot** – Simplifies Java application development with **embedded servers**, **auto-configuration**, and **REST API** support.
+- **PostgreSQL** – Relational database for **persistent storage** of employee data.
+- **JPA / Hibernate** – ORM (Object Relational Mapping) layer used to map Java objects to PostgreSQL tables.
+- **Spring Data JPA** – Abstraction layer to simplify **database queries** and **data access logic**.
+
+---
+
+## 🧱 Architecture Overview
+
+- Layered architecture: **Controller → Service → Repository → Database**
+- **RESTful API** endpoints for each operation
+- Follows best practices for clean code, exception handling, and validation
+
+---
+
+## 🔧 Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Vivek1035/Employee_Management_System.git
+
