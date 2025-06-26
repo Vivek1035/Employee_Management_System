@@ -1,4 +1,4 @@
-# Train-Resevation-System
+# Employee Management System - Java, Spring Boot, PostgreSQL
 Employee Management System - Java, Spring Boot, PostgreSQL
 This is a fully functional Employee Management System built using Java, Spring Boot, and PostgreSQL. The system allows for basic CRUD operations (Create, Read, Update, Delete) on employee records. It is designed to manage employee data, including their names, emails, positions, and salaries. The application is built with RESTful APIs to perform the operations, and it uses PostgreSQL as the database to persist employee information.
 
