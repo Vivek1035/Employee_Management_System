@@ -1,5 +1,4 @@
-# Employee Management System - Java, Spring Boot, PostgreSQL
-# 🚀 Employee Management System
+# 🚀 Employee Management System - Java, Spring Boot, PostgreSQL
 
 A fully functional **Employee Management System** built using **Java**, **Spring Boot**, and **PostgreSQL**. This application provides RESTful APIs to perform basic **CRUD operations** (Create, Read, Update, Delete) on employee records. It manages employee information including **name**, **email**, **position**, and **salary**.
 
